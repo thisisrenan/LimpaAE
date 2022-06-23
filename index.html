@@ -5,58 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LimpaAÊ</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 </head>
 <!-- o header ja está configurado para descer junto com o scroll -->
-<header >
-    <div style="height: 100px;">
+<header>
+    <div id="containerheader">
+        <img src="./img/logo.png" alt="">
+        <ul id="listaheader">
+            <li>
+                <a href="#conteinervideo">Sobre</a>
+            </li>
+            <li>
+                <a href="#conteinervideo">Processo</a>
+            </li>
+            <li>
+                <a href="#conteinervideo">Video Conceitual</a>
+            </li>
+            <li>
+                <a href="#containerdev">Equipe</a>
+            </li>
+
+        </ul>
     </div>
+    
 </header>
 
 <!-- o corpo do projeto -->
 <body>
-    <div id="containerdev">
-        <text style="background-color: rgb(147, 147, 206); width: 100%; font-size: x-large; font-style: italic;">EQUIPE</texte>
-        <div id="desenvolvedores">
-            
-            <div id="desenvolvedor">
-                <a id="linkimage" href="https://github.com/joserenandasilva" target="_blank" rel="noopener noreferrer">
-                    <img id="fotogit" src="https://avatars.githubusercontent.com/u/82916964?v=4">
-                </a>
-                    <br>
-                    <text>José Renan</text>
-                    <br>
-                    <text>desenvolvedor</text>
-            </div>
-            <div id="desenvolvedor">
-                <a id="linkimage" href="https://github.com/AyrtonCunha" target="_blank" rel="noopener noreferrer">
-                    <img id="fotogit" src="https://avatars.githubusercontent.com/u/93165990?v=4">
-                </a>
-                <br>
-                <text>Ayrton Cunha</text>
-                <br>
-                <text>desenvolvedor</text>
-            </div>
-            <div id="desenvolvedor">
-                <a id="linkimage" href="https://github.com/AyrtonCunha" target="_blank" rel="noopener noreferrer">
-                    <img id="fotogit" src="https://avatars.githubusercontent.com/u/102377804?v=4">
-                </a>
-                <br>
-                <text>Caio Rangel</text>
-                <br>
-                <text>desenvolvedor</text>
-            </div>
-            <div id="desenvolvedor">
-                <a id="linkimage" href="https://github.com/PedroEllero" target="_blank" rel="noopener noreferrer">
-                    <img id="fotogit" src="https://avatars.githubusercontent.com/u/102377804?v=4">
-                </a>
-                <br>
-                <text>Pedro Luiz</text>
-                <br>
-                <text>desenvolvedor</text>
-            </div>
+    <div id="paginainicial">
+       <h1>TESTANDO</h1>
+    </div>
+    <div id="sobre">
+
+    </div>
+    <div id="conteinervideo">
+
+        <h1>vídeo conceitual</h1>
+        <div id="video">
+            <object width="960em" height="540em">
+                <param name="movie" value="https://www.youtube.com/embed/spEyPgS-iG4" />
+                <embed src="https://www.youtube.com/embed/spEyPgS-iG4" type="application/x-shockwave-flash" width="425" height="350" />
+            </object>
         </div>
     </div>
- 
+    <div id="slide">
+
+    </div>
+
+    <div id="containerdev">
+        <h1>EQUIPE</h1>
+        <div id="desenvolvedores">
+            <ul>
+                <li>
+                    <a id="linkimage" href="https://github.com/joserenandasilva" target="_blank" rel="noopener noreferrer">
+                        <img id="fotogit" src="https://avatars.githubusercontent.com/u/82916964?v=4">
+                    </a>
+                        <br>
+                        <text>José Renan</text>
+                        <br>
+                        <text>desenvolvedor</text>
+                </li>
+                <li>
+                    <a id="linkimage" href="https://github.com/AyrtonCunha" target="_blank" rel="noopener noreferrer">
+                    <img id="fotogit" src="https://avatars.githubusercontent.com/u/93165990?v=4">
+                    </a>
+                    <br>
+                    <text>Ayrton Cunha</text>
+                    <br>
+                    <text>desenvolvedor</text></li>
+                <li>  
+                    <a id="linkimage" href="https://github.com/AyrtonCunha" target="_blank" rel="noopener noreferrer">
+                    <img id="fotogit" src="https://avatars.githubusercontent.com/u/102377804?v=4">
+                    </a>
+                    <br>
+                    <text>Caio Rangel</text>
+                    <br>
+                    <text>desenvolvedor</text>
+                </li>
+                <li>
+                    <a id="linkimage" href="https://github.com/PedroEllero" target="_blank" rel="noopener noreferrer">
+                    <img id="fotogit" src="https://avatars.githubusercontent.com/u/102377804?v=4">
+                    </a>
+                    <br>
+                    <text>Pedro Luiz</text>
+                    <br>
+                    <text>desenvolvedor</text></li>
+              </ul> 
+        </div>
+    </div>
 </body>
 </html>
