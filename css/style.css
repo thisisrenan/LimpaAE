@@ -10,6 +10,7 @@ header {
     align-content: center;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
  #containerheader {
     display: flex;
@@ -137,7 +138,8 @@ body{
     height:40em;
     width: 100%;
 }
-#conteinervideo{ display: flex;
+#conteinervideo{ 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -156,9 +158,82 @@ object {
     border: 10px solid rgba(90, 166, 223, 1);
 }
 
-#slide {
-    display: block;
+#slidecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     background-color: rgba(90, 166, 223, 1);
-    height:50em;
+    height:40em;
     width: 100%;
 }
+
+.slide h1{
+    padding-top: 10px;
+    margin-left: 3em;
+    padding-bottom: 3px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.slide {
+    display: block;
+    width: 50em;
+}
+
+
+#buttons{
+    background-color: rgba(90, 166, 223, 1);
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid rgba(90, 166, 223, 1); /* Green */
+    transition-duration: 0.4s;
+
+}
+#buttons:hover{
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: white; /* Green */
+    color: rgba(90, 166, 223, 1);
+
+}
+
+.button2:link, a:visited {
+    background-color: white;
+    color: rgba(90, 166, 223, 1);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.button2:visited{
+    background-color: white;
+    color: rgba(90, 166, 223, 1);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.button2:hover {
+    background-color: white;
+    border: 1px solid grey;
+ }
+.button2:active{
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.button2 {
+    display: inline;
+    position: absolute;
+    margin: 150px 0 0 100px;
+ }
+ 

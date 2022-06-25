@@ -48,8 +48,70 @@
             </object>
         </div>
     </div>
-    <div id="slide">
+    <div id="slidecontainer">
+        
+        <button class="button-left" id="buttons" onclick="plusDivs(-1)">&#10094;</button>
+        <div class="slide">
+            <div class="mySlides" >
+                <h1>Prototipo Inicial</h1>
+                <ul class="lista-projetos" style="list-style: none;">
+                    <li>
+                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
+                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo inicial <br>(figma) </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mySlides" >
+                <h1>Prototipo Final</h1>
+                <ul class="lista-projetos" style="list-style: none;">
+                    <li>
+                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
+                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo final <br>(figma) </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mySlides" >
+                <h1>decidindo ainda</h1>
+                <ul class="lista-projetos" style="list-style: none;">
+                    <li>
+                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
+                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo inicial </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mySlides">
+                <h1>decidindo ainda</h1>
+                <ul class="lista-projetos" style="list-style: none;">
+                    <li>
+                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
+                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo inicial </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <button class="button-right" id="buttons" onclick="plusDivs(1)">&#10095;</button>
 
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+             if (n > x.length) {slideIndex = 1}
+             if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+                    
     </div>
 
     <div id="containerdev">
