@@ -23,10 +23,10 @@
         <img src="./img/logo.png" alt="">
         <ul id="listaheader">
             <li>
-                <a href="#conteinervideo">Sobre</a>
+                <a href="#sobre">Sobre</a>
             </li>
             <li>
-                <a href="#conteinervideo">Processo</a>
+                <a href="#processo">Processo</a>
             </li>
             <li>
                 <a href="#conteinervideo">Video Conceitual</a>
@@ -47,10 +47,16 @@
        <div id="boxtexto">
            <h1>LimpaAÊ</h1>
            <p>Lorem ipsum dolor sit amet. Id debitis soluta quo sunt libero qui dolor maxime eos numquam beatae id internos magnam est quam minus aut dolor facilis. Et officiis minima qui maxime labore ex unde earum qui pariatur tenetur est maxime magnam est nihil illo aut autem galisum. Ad consequuntur voluptatem ut dolore perspiciatis ut officiis consequatur ut voluptatem assumenda eum autem doloribus sit vitae Quis est error rerum. Est quaerat vitae ea galisum corrupti 33 recusandae reprehenderit.</p>
+           <a href="#sobre" >Veja mais sobre</a>
         </div>
-       <img id="img2cel" src="./img/img2cel.png" alt="">
+        <img id="img2cel" src="./img/img2cel.png" alt="">
     </div>
     <div id="sobre">
+        <div>
+            <h1>Sobre</h1>
+            <p>Lorem ipsum dolor sit amet. Id debitis soluta quo sunt libero qui dolor maxime eos numquam beatae id internos magnam est quam minus aut dolor facilis. Et officiis minima qui maxime labore ex unde earum qui pariatur tenetur est maxime magnam est nihil illo aut autem galisum. Ad consequuntur voluptatem ut dolore perspiciatis ut officiis consequatur ut voluptatem assumenda eum autem doloribus sit vitae Quis est error rerum. Est quaerat vitae ea galisum corrupti 33 recusandae reprehenderit.</p>
+        </div>
+           
 
     </div>
     <div id="conteinervideo" >
@@ -63,70 +69,29 @@
             </object>
         </div>
     </div>
-    <div id="slidecontainer">
-        
-        <button class="button-left" id="buttons" onclick="plusDivs(-1)">&#10094;</button>
-        <div class="slide">
-            <div class="mySlides" >
-                <h1>Prototipo Inicial</h1>
-                <ul class="lista-projetos" style="list-style: none;">
-                    <li>
-                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
-                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo inicial <br>(figma) </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="mySlides" >
-                <h1>Prototipo Final</h1>
-                <ul class="lista-projetos" style="list-style: none;">
-                    <li>
-                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
-                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo final <br>(figma) </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="mySlides" >
-                <h1>decidindo ainda</h1>
-                <ul class="lista-projetos" style="list-style: none;">
-                    <li>
-                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
-                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo inicial </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="mySlides">
-                <h1>decidindo ainda</h1>
-                <ul class="lista-projetos" style="list-style: none;">
-                    <li>
-                        <img src="img/Prototipo 1.png" style="width: 20em; margin-top: -30px;">
-                        <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank" class="button2"> Prototipo inicial </a>
-                    </li>
-                </ul>
-            </div>
-            
+    <div id="slidecontainer">            
+        <div id="slidecontainer2">
+            <h1>Teste agora o nosso prototipo</h1>                 
+            <a href="https://www.figma.com/proto/dvfRHelSEGkGHlsxgUcjas/IHC-Trabalho" target="_blank"> Prototipo (figma) </a>  
         </div>
-        <button class="button-right" id="buttons" onclick="plusDivs(1)">&#10095;</button>
+    <img src="img/Prototipo 1.png"">
+    </div>
 
-        <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-
-            function plusDivs(n) {
-            showDivs(slideIndex += n);
-            }
-
-            function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-             if (n > x.length) {slideIndex = 1}
-             if (n < 1) {slideIndex = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            x[slideIndex-1].style.display = "block";  
-            }
-        </script>
-                    
+    <div id="processo" >
+        <h1>Processo</h1>
+        <h2>Design sprint </h2>
+        <div class="grid-container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>  
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+            <div class="item7">7</div>
+            <div class="item8">8</div>  
+            <div class="item8">9</div>  
+          </div>
+          
     </div>
 
     <div id="containerdev">

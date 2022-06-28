@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:courier,arial,helvetica;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
@@ -54,11 +54,12 @@ body{
     
 }
 
+
 #containerdev {
     justify-content: center;
     text-align: center;
     align-items: center; 
-    background-color: rgb(255, 255, 255);;
+    background-color: #16496e;
     height:30em;
     width: 100%;
 }
@@ -114,15 +115,37 @@ body{
     width: 100%;
 }
 
+#paginainicial a{
+    position: relative;
+    z-index: 10;
+    margin-top: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid rgba(90, 166, 223, 1); /* Green */
+    transition-duration: 0.4s;
+    background-color: rgba(90, 166, 223, 1);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    animation: text 7s ease 0s normal forwards;
+}
+
+#paginainicial a:hover{
+    background-color: white;
+    color: rgba(90, 166, 223, 1);
+ }
+
 
 #boxtexto {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: -300px;
     align-items: center;
     align-content: center;
-    margin-top: -10em;
+    margin-top: -20em;
     margin-right: -550px;
     margin-left: -500px;
     animation: text 4s ease 0s normal forwards;
@@ -136,7 +159,7 @@ body{
 }
 
 #boxtexto p {
-    width: 40em;
+    width: 35em;
     text-align: justify;
     letter-spacing: 3px;
     text-indent: 50px;
@@ -179,7 +202,7 @@ body{
 @keyframes img1cel {
     0.0%{
         
-        transform: scale(1.2) translate(1.5em) rotate(-2deg);
+        transform: scale(1.2) translate(-3em) rotate(-2deg);
     }
     100%{
         
@@ -190,7 +213,7 @@ body{
 @keyframes img2cel {
     0.0%{
         
-        transform: scale(1.2) translate(-1.5em) rotate(-2deg);
+        transform: scale(1.2) translate(3em) rotate(-2deg);
     }
     100%{
         transform: scale(1.2) translate(30em) rotate(15deg);
@@ -198,11 +221,30 @@ body{
 }
 
 
+
 #sobre {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     background-color: #16496e;
     height:50em;
     width: 100%;
+}
+#sobre p{
+    width: 35em;
+    text-align: justify;
+    letter-spacing: 3px;
+    text-indent: 50px;
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+#sobre h1{
+    color: white;
+    font-size: 50px;
+    margin-left: 290px;
+    margin-top: 50px;
 }
 #sobre2 {
     display: block;
@@ -247,22 +289,58 @@ object {
     align-items: center;
     align-content: center;
     background-color: #16496e;
-    height:40em;
+    height:50em;
     width: 100%;
 }
+#slidecontainer a{
+    background-color: rgba(90, 166, 223, 1);
+    border: 2px solid rgba(90, 166, 223, 1) ;
+    color: white;
+    padding: 20px 130px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+#slidecontainer a:hover{
+    background-color: white;
+    color: rgba(90, 166, 223, 1);
+ }
+ 
 
-.slide h1{
-    padding-top: 10px;
-    margin-left: 3em;
+ #slidecontainer img{
+    transition-duration: 0.4s;
+    transform: scale(0.8) rotate(15deg);
+ }
+
+ #slidecontainer img:hover{
+    transition-duration: 0.4s;
+    transform: scale(0.8) rotate(10deg);
+ }
+
+
+#slidecontainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -100px;
+    margin-right: 50px;
+}
+#slidecontainer2 h1{
+    width: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    padding-top: 100px;
     padding-bottom: 3px;
     color: white;
-    font-size: 50px;
-    margin-bottom: 50px;
+    text-shadow: 2px 2px 10px #000000;
 }
-.slide {
-    display: block;
-    width: 50em;
-}
+
 
 
 #buttons{
@@ -283,7 +361,6 @@ object {
     border-radius: 30px;
     background-color: white; /* Green */
     color: #16496e;
-
 }
 
 .button2:link, a:visited {
@@ -319,3 +396,54 @@ object {
     margin: 150px 0 0 100px;
  }
  
+
+ #processo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    height:90em;
+    width: 100%;
+ }
+
+ 
+ #processo  h1{
+    color: #16496e;
+    font-size: 50px;
+    margin-top: -100px;
+ }
+
+ #processo h2 {
+    color: #16496e;
+    font-size: 20px;
+ }
+
+ .grid-container {
+    display: grid;
+    width: 900px;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    height:300px;
+    background-color: rgba(90, 166, 223, 1);
+    border: 5px #16496e;
+    border-style: solid;
+    box-shadow: 1px 10px 10px rgb(114, 114, 114);
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 0;
+    margin: 20px;
+    font-size: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .grid-container > div:hover{
+    transform: scale(1.1);
+  }
+
