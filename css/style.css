@@ -32,7 +32,7 @@ header {
 
  #listaheader a{
     text-decoration: none;
-    color: white;
+    color: #fcfcfc;
     padding: 8px;
     margin: 15px;
     font-size: 1.3em;
@@ -124,7 +124,7 @@ body{
     border: 2px solid rgba(90, 166, 223, 1); /* Green */
     transition-duration: 0.4s;
     background-color: rgba(90, 166, 223, 1);
-    color: white;
+    color: #fcfcfc;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -132,7 +132,7 @@ body{
 }
 
 #paginainicial a:hover{
-    background-color: white;
+    background-color: #fcfcfc;
     color: rgba(90, 166, 223, 1);
  }
 
@@ -241,7 +241,7 @@ body{
 }
 
 #sobre h1{
-    color: white;
+    color: #fcfcfc;
     font-size: 50px;
     margin-left: 290px;
     margin-top: 50px;
@@ -258,7 +258,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: white;
+    background-color: #fcfcfc;
     height:40em;
     width: 100%;
 }
@@ -295,7 +295,7 @@ object {
 #slidecontainer a{
     background-color: rgba(90, 166, 223, 1);
     border: 2px solid rgba(90, 166, 223, 1) ;
-    color: white;
+    color: #fcfcfc;
     padding: 20px 130px;
     text-align: center;
     border-radius: 10px;
@@ -305,7 +305,7 @@ object {
     transition-duration: 0.5s;
 }
 #slidecontainer a:hover{
-    background-color: white;
+    background-color: #fcfcfc;
     color: rgba(90, 166, 223, 1);
  }
  
@@ -337,7 +337,7 @@ object {
     font-size: 50px;
     padding-top: 100px;
     padding-bottom: 3px;
-    color: white;
+    color: #fcfcfc;
     text-shadow: 2px 2px 10px #000000;
 }
 
@@ -359,12 +359,12 @@ object {
     padding: 20px;
     cursor: pointer;
     border-radius: 30px;
-    background-color: white; /* Green */
+    background-color: #fcfcfc; /* Green */
     color: #16496e;
 }
 
 .button2:link, a:visited {
-    background-color: white;
+    background-color: #fcfcfc;
     color: #16496e;
     padding: 14px 25px;
     text-align: center;
@@ -373,7 +373,7 @@ object {
   }
 
 .button2:visited{
-    background-color: white;
+    background-color: #fcfcfc;
     color: #16496e;
     padding: 14px 25px;
     text-align: center;
@@ -382,11 +382,11 @@ object {
 }
   
 .button2:hover {
-    background-color: white;
+    background-color: #fcfcfc;
     border: 1px solid grey;
  }
 .button2:active{
-    background-color: white;
+    background-color: #fcfcfc;
     border: 1px solid grey;
 }
 
@@ -403,7 +403,7 @@ object {
     align-items: center;
     justify-content: center;
     align-content: center;
-    background-color: white;
+    background-color: #fcfcfc;
     height:90em;
     width: 100%;
  }
@@ -440,10 +440,43 @@ object {
     padding: 20px 0;
     margin: 20px;
     font-size: 30px;
-    transition-duration: 0.4s;
   }
 
-  .grid-container > div:hover{
-    transform: scale(1.1);
-  }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.item h6{
+    font-size: 25px;
+    color: #fcfcfc;
+    margin-top: 15px;
+}
+.item img{
+    width: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+    box-shadow: 1px 2px 10px #16496e;
+}
+
+.item a{
+    background-color: #fcfcfc;
+    border: 2px solid #fcfcfc ;
+    color: rgba(90, 166, 223, 1);
+    padding: 5px 5px;
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    box-shadow: 1px 2px 10px #16496e;
+}
+.item a:hover{
+    background-color: rgba(90, 166, 223, 1);
+    color: #fcfcfc;
+ }
