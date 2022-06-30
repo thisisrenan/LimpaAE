@@ -54,7 +54,7 @@ body{
 }
 
 
-#containerdev {
+#equipe {
     justify-content: center;
     text-align: center;
     align-items: center; 
@@ -63,7 +63,7 @@ body{
     width: 100%;
 }
 
-#containerdev  h1{
+#equipe  h1{
     padding-top: 100px;
     padding-bottom: 3px;
     color: #fcfcfc;
@@ -258,19 +258,20 @@ body{
     align-items: center;
     align-content: center;
     background-color: #fcfcfc;
-    height:40em;
+    height:50em;
     width: 100%;
 }
-#conteinervideo{ 
+#video{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: #fcfcfc;
 
 }
 
-#conteinervideo h1{
+#video h1{
     color: #16496e;
     font-size: 50px;
     margin-top: 50px;
