@@ -54,7 +54,7 @@ body{
 }
 
 
-#equipe {
+#Equipe {
     justify-content: center;
     text-align: center;
     align-items: center; 
@@ -63,7 +63,7 @@ body{
     width: 100%;
 }
 
-#equipe  h1{
+#Equipe  h1{
     padding-top: 100px;
     padding-bottom: 3px;
     color: #fcfcfc;
@@ -221,7 +221,7 @@ body{
 
 
 
-#sobre {
+#Sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,7 +230,7 @@ body{
     height:35em;
     width: 100%;
 }
-#sobre p{
+#Sobre p{
     width: 35em;
     text-align: justify;
     letter-spacing: 3px;
@@ -239,7 +239,7 @@ body{
     margin-top: 60px;
 }
 
-#sobre h1{
+#Sobre h1{
     color: #fcfcfc;
     font-size: 50px;
     margin-left: 290px;
@@ -251,7 +251,7 @@ body{
     height:50em;
     width: 100%;
 }
-#video {
+#Video {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,7 +261,7 @@ body{
     height:50em;
     width: 100%;
 }
-#video{ 
+#Video{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,7 +271,7 @@ body{
 
 }
 
-#video h1{
+#Video h1{
     color: #16496e;
     font-size: 50px;
     margin-top: 50px;
@@ -397,7 +397,7 @@ object {
  }
  
 
- #processo {
+ #Processo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -409,13 +409,13 @@ object {
  }
 
  
- #processo  h1{
+ #Processo  h1{
     color: #16496e;
     font-size: 50px;
     margin-top: -100px;
  }
 
- #processo h2 {
+ #Processo h2 {
     color: #16496e;
     font-size: 20px;
  }
